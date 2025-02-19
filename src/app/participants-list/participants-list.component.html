@@ -1,0 +1,8 @@
+<div class="participants-list">
+    <app-participant-item
+      *ngFor="let participant of participants"
+      [name]="participant.name"
+      [attendance]="participant.attendance"
+      [score]="participant.score">
+    </app-participant-item>
+</div>

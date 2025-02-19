@@ -1,0 +1,13 @@
+<div class="participant-item">
+    <div class="beam"></div>
+    <div class="score-circle" [style]="{'background-color': score < 2.5 ? '#e57373' : score < 3 ? '#ffd54f' : '#81c784'}">
+      {{ score }}
+    </div>
+    <div class="participant-info">
+      <div class="name">{{ name }}</div>
+      <div class="attendance">attendance: {{ attendance }}%</div>
+    </div>
+    <div class="info-icon">
+      <i class="material-icons">info</i>
+    </div>
+  </div>
