@@ -3,8 +3,8 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ParticipantItemComponent } from './participant-item/participant-item.component';
-import { ParticipantsListComponent } from './participants-list/participants-list.component';
+import { ParticipantItemComponent } from './components/participant-item/participant-item.component';
+import { ParticipantsListComponent } from './components/participants-list/participants-list.component';
 import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
